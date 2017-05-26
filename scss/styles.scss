@@ -1,0 +1,44 @@
+$pad : 1em;
+$color-aside: #75c48c;
+$color-header: #f2e2b8;
+body {
+  font-family: 'liquid_crystalregular', sans-serif;
+  user-select: none;
+  user-drag: none;
+}
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+header, footer {
+    padding: $pad;
+    color: black;
+    background-color: $color-header;
+    clear: left;
+    text-align: center;
+}
+aside {
+    float: left;
+    max-width: 250px;
+    margin: 0;
+    padding: $pad;
+    background-color: $color-aside;
+    width: 100%;
+
+}
+
+label{
+	font-weight: bold;
+}
+
+#content {
+    margin-left: 170px;
+    padding: $pad;
+    overflow: hidden;
+}
+.color1{
+	color: $color-header;
+}
+.name{
+	color: white;
+}

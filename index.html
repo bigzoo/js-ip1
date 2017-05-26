@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="build/css/styles.css">
+  <link rel="stylesheet" href="build/css/vendor.css">
+  <script src="build/js/vendor.min.js"></script>
+  <script type="text/javascript" src="build/js/app.js"></script>
+  <title>HubGit</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>HubGit</h1>
+      <h5>Your Github Gateway</h5>
+    </header>
+    <div id="nav">
+      <aside>
+        <h3>About HubGit</h3>
+        <h3 class="color1">Created By:</h3>
+        <h4 class="name">Chris Nyaga</h4>
+        <h3 class="color1">GitHub UserName/URL:</h3>
+        <h5>
+					<a href="https://github.com/bigzoo">https://github.com/bigzoo</a>
+				</h5>
+        <h3 class="color1">IP1 for Moringa School</h3>
+      </aside>
+    </div>
+    <div id="content">
+      <div>
+        <label for="user">Who'd you like to know about today?</label>
+        <input type="text" id="userName" placeholder="Enter Username">
+      </div>
+      <button id="submitUserName" class="btn btn-submit">Ask for details</button>
+      <h2 id="display"></h2>
+
+      <p id="email"></p>
+      <h3 id="reposHeader">Repos available and their descriptions:</h3>
+      <ol id="displayRepos"></ol>
+    </div>
+  </div>
+</body>
+
+</html>
